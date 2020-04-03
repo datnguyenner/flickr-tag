@@ -1,0 +1,43 @@
+body {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.search {
+  padding: 10px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  font-size: large;
+}
+
+button {
+  width: 30px;
+  height: 35px;
+  font-size: large;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 10px;
+}
+
+div.polaroid {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: white
+}
+
+div.container {
+  padding: 10px;
+  background-color: white
+}
